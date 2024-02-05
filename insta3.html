@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .box{
+            height: 70%;
+            width: 30%;
+            border: 2px solid black;
+        }
+        #inner-1{
+            height: 70%;
+            border: 2px solid red;
+        }
+        #inner-2{
+            height: 10%;
+            border: 2px solid green;
+        }
+        #inner-3{
+            height: 20%;
+            border: 2px solid yellow;
+        }
+        .box img{
+            height: 50%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+        height: 50%;
+        width: 70%;
+        border: 2px dashed green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        padding: 10px;
+        margin: 5px;
+    }
+    input[type="sunmit"]{
+        background-color: white;
+        border: none;
+        border-radius: 7px;
+        color: white;
+        font-weight: bold;
+    }
+    .links{
+        height: 30%;
+        border: 2px dashed blue;
+        text-align: center;
+        position: relative;
+    }
+    .inner-box div{
+        width: 70%;
+        margin: auto;
+    }
+    .logo img{
+       width: 80%;
+       height: 100; 
+    }
+    .inner-box-3 img{
+        height: 50%;
+        width: 45%;
+        margin: 3px;
+    }
+    .or::before{
+        content: "";
+        border: 1px solid black;
+        width: 40%;
+        position: absolute;
+        left: 7px;
+        top: 8px;
+    }
+    .or::after{
+        content: "";
+        border: 1px solid black;
+        width: 40%;
+        position: absolute;
+        left: 7px;
+        top: 8px;
+    }
+    .i{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <img src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk" alt="">
+        </div>
+        <div class="box">
+            <div class="inner box1" id="inner-1">
+                <div class="logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png" alt="">
+                    <form action="">
+                        <input type="text" placeholder="Username or email address">
+                        <input type="password" placeholder="password">
+                        <input type="submit" value="login">
+                    </form>
+                    <div class="i">
+                        <div class="or">OR</div>
+                    </div>
+                
+                    <div class="link">
+                       
+                    </div>
+                </div>
+            </div> 
+            <div class="inner box2" id="inner-2">
+                <div class="z"></div>
+            </div>
+            <div class="inner box3" id="inner-3">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" alt="">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

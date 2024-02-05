@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    height: 10vh;
+    width: 100%;
+    border: 2px solid black;
+}
+.nav{
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-self: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+}
+li{
+    margin: 20px;
+    font-size: 20px;
+    margin: 30px;
+    font-weight: 100;
+}
+#projectbox1{
+    height: 20vh;
+    width: 20%;
+}
+.mainpic{
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border: 2px solid blue;
+    /* position: absolute; */
+}
+.br{
+    width: 120px;
+    height: 100px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    background-color: rgb(12, 12, 12);
+}
+.Architects{
+    font-size: 30px;
+    color: white;
+}
+.Projects{
+    margin-top: 50px;
+    font-size: 12px;
+    margin-left: 50px;
+}
+.project-images{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+.project-images1{
+    border: 2px solid black;
+    height: 250px;
+    width: 22%;
+    margin: 1%;
+    background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+    background-size: cover;
+}
+.project-images2{
+    border: 2px solid black;
+    height: 250px;
+    width: 22%;
+    margin: 1%;
+    background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+    background-size: cover;
+}
+.project-images3{
+    border: 2px solid black;
+    height: 250px;
+    width: 22%;
+    margin: 1%;
+    background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+    background-size: cover;
+}
+.project-images4{
+    border: 2px solid black;
+    height: 250px;
+    width: 22%;
+    margin: 1%;
+    background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+    background-size: cover;
+}
+.About{
+    font-size: 12px;
+}
+.About-image{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+.About-image1{
+    border: 2px solid black;
+    /* height: 400px; */
+    width: 23%;
+    margin: 1%;
+}
+.About-image2{
+    border: 2px solid black;
+    /* height: 400px; */
+    width: 22%;
+    margin: 1%;
+   
+    background-size: cover;
+}
+.About-image3{
+    border: 2px solid black;
+    /* height: 400px; */
+    width: 22%;
+    margin: 1%;
+    background-size: cover;
+}
+.About-image4{
+    border: 2px solid black;
+    /* height: 400px; */
+    width: 22%;
+    margin: 1%;
+    background-size: cover;
+}
+.img-side{
+    border: 2px solid blue;
+    height: 200px;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+.img-side img{
+    /* background-size: cover; */
+    height: 200px;
+    width: 100%;
+}
+.content{
+    padding: 20px; 
+}
+.content p{
+    margin-top: 14px;
+}
+.img-side1{
+    border: 2px solid blue;
+    height: 200px;
+}
+.img-side1 img{
+    height: 200px;
+    width: 100%;
+}
+.content1{
+    padding: 20px;
+}
+.content1 p{
+    margin: 14px; 
+}
+.img-side2{
+    border: 2px solid blue;
+    height: 200px;
+}
+.img-side2 img{
+    height: 200px;
+    width: 100%;
+}
+.content2{
+    padding: 20px;
+}
+.content2 p{
+    margin: 14px;
+}
+.img-side3{
+    border: 2px solid blue;
+    height: 200px;
+}
+.img-side3 img{
+    height: 200px;
+    width: 100%;
+}
+.content3{
+    padding: 20px;
+}
+.content3 p{
+    margin: 14px;
+}
+button{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    border: none;
+}
+.Contact{
+    height: 500px;
+    width: 100%;
+    text-align: left;
+    /* border: 2px solid black; */
+}
+h1{
+    margin-top: 50px;
+}
+.Contact hr{
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+form{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+input{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+}
+.Contact button{
+    width: 13%;
+    color: white;
+    background-color: black;
+}
+.mainpic2{
+    background-size: cover;
+}
+.footer{
+    border: 2px solid black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.footer a{
+    color: white;
+    
+}

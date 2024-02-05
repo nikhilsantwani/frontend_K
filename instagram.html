@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+           height: 100vh;
+           border: 2px solid black;
+           display: flex;
+           justify-content: center;
+          align-items: center; 
+        }
+        .box{
+            height: 70%;
+           width: 30%;
+            border: 2px solid black;
+        }
+        #inner-1{
+         height: 70%;
+         border: 2px solid red;  
+        }
+        #inner-2{
+            height: 10%;
+
+            border: 2px solid green;;
+        }
+        #inner-3{
+            height: 20%;
+            border: 2px solid yellow;
+        }
+
+        form{
+        height: 50%;
+        width: 70%;
+        border: 2px dashed green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   
+    }
+    
+    .box img{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk" alt="">
+        </div>
+        <div class="box">
+            <div class="inner box1" id ="inner-1">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fpng-eduhu&psig=AOvVaw3W98zN--jVOp0gx2MB48hM&ust=1705055035187000&source=images&cd=vfe&ved=0CBMQjRxqFwoTCIi6hY-P1YMDFQAAAAAdAAAAABAJ" alt="">
+
+                
+            </div>
+            <div class="inner box2" id = "inner-2">
+                   <form action="">
+                    <input type="text" placeholder="Username or email address">
+                    <input type="password" placeholder="password">
+                    <input type="submit" value="login">
+
+                </form>
+            </div>
+            <div class="link">
+            </div>
+            <div class="inner box3" id="inner-3"></div>
+        </div>  
+    </div>
+</body>
+</html>
