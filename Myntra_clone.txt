@@ -107,7 +107,7 @@
       
       
       .div1>span{
-        /* border-right: 3px solid grey; */
+        
         margin-left: -370px;
         text-align:center;
         cursor:pointer;
